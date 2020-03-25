@@ -27,6 +27,8 @@ import OH4 from './OH4';
 import FWOH2 from './FWOH2';
 import BWOH2 from './BWOH2';
 
+import About from './About';
+
 ReactDOM.render(
     <BrowserRouter>
     <div>
@@ -53,6 +55,8 @@ ReactDOM.render(
     <Route path="/OH4" component={OH4} />
     <Route path="/FWOH2" component={FWOH2} />
     <Route path="/BWOH2" component={BWOH2} />
+
+    <Route path="/About" component={About} />
     </div>
     </BrowserRouter>,document.getElementById('root'));
 
